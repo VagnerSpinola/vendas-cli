@@ -50,12 +50,16 @@ vendas_cli/
 
 # Exemplo CSV
 
+```text
 data,produto,quantidade,preco
 2025-01-01,Notebook,2,3500.00
 2025-01-02,Mouse,5,50.00
+```
 
 # Instalacao
 
+git clone https://github.com/VagnerSpinola/vendas-cli.git
+cd vendas-cli
 python -m venv venv
 source venv/bin/activate  # Linux / macOS
 venv\Scripts\activate     # Windows
