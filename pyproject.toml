@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vendas-cli"
+version = "0.0.1"
+description = "CLI para geração de relatórios de vendas"
+authors = [{ name = "Vagner Spinola" }]
+requires-python = ">=3.10"
+readme = "README.md"
+license = { file = "LICENSE" }
+
+[project.scripts]
+vendas-cli = "vendas_cli.cli:main"
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "pytest-cov",
+]
+
+[tool.pytest.ini_options]
+addopts = "--cov=vendas_cli --cov-report=term-missing"
+testpaths = ["tests"]
