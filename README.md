@@ -58,6 +58,7 @@ data,produto,quantidade,preco
 
 # Instalacao
 
+```text
 git clone https://github.com/VagnerSpinola/vendas-cli.git
 cd vendas-cli
 python -m venv venv
@@ -65,6 +66,7 @@ source venv/bin/activate  # Linux / macOS
 venv\Scripts\activate     # Windows
 
 pip install -e .[dev]
+```
 
 # Texto
 
