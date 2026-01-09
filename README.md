@@ -88,3 +88,5 @@ vendas-cli vendas.csv --format json --start 2025-01-01 --end 2025-03-31
 
 pytest
 
+
+Projeto voltado ao teste para uma possivel implementacao real fazer upgrades como tratar o arquivo lido com geradores para retornar linha por linha e nao consumir memoria 
